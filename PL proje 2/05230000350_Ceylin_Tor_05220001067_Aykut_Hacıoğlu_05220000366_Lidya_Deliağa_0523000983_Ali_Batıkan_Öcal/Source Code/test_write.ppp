@@ -1,0 +1,3 @@
+number count;
+count := 3;
+write "The count is:" and count and newline;

@@ -1,0 +1,16 @@
+number counter;
+number result;
+number step;
+
+counter := 3;
+result := 10;
+step := 2;
+
+repeat counter times
+{
+  write "Current result is:" and result and newline;
+  result += step;
+  step += 1;
+}
+
+write newline and "Final result is:" and result and newline and "Final step is:" and step;

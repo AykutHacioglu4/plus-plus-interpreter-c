@@ -1,0 +1,5 @@
+number total;
+total := 9999999;
+total += 1;
+total -= 9999998;
+write "Total is:" and total and newline;

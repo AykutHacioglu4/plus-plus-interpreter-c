@@ -1,0 +1,13 @@
+number i;
+number j;
+i := 2;
+repeat i times
+{
+  j := 2;
+  repeat j times
+  {
+    write "i:" and i and " j:" and j and newline;
+    j -= 1;
+  }
+  i -= 1;
+}

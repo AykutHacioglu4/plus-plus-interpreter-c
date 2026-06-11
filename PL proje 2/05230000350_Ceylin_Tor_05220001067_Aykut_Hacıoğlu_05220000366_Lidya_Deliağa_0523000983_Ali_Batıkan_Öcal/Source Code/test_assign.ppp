@@ -1,0 +1,6 @@
+number x;
+number y;
+x := 12345678;
+y := x;
+write "x:" and x and newline and "y:" and y;
+
